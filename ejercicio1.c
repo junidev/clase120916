@@ -1,9 +1,12 @@
-#include <iostream>
+#include <stdio.h>
+#include <iostream
 
-using namespace std;
-
-void function(char a[]){
-
-
+void minusculas(char *s){
+    *s += 'a' - 'A';
 }
 
+main(){
+    char str[] = "A";
+    minusculas(str);
+    printf("%s",str);
+}
