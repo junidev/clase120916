@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <iostream
+#include <iostream>
 
 void minusculas(char *s){
     *s += 'a' - 'A';
